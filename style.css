@@ -213,3 +213,92 @@
     padding: 4px 10px !important;
     color: var(--footer-text-color) 
   }    
+  .edu {
+    font-family: "Nunito Sans", Verdana,  Tahoma, sans-serif;
+    text-align: center;
+    padding: 25px;
+    font-size: 34px;
+    text-transform: uppercase;
+    
+  }
+  .education {
+    font-family: "Nunito Sans", Verdana,  Tahoma, sans-serif;
+    padding-left: 36px;
+  }
+  .diploma {
+    font-family: "Nunito Sans", Verdana,  Tahoma, sans-serif;
+    font-size: 17px;
+  }
+  .discription {
+    font-size: 15px;
+ 
+  }
+  .high {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  h3{
+    text-align: center;
+  }
+  .main-skill-list {
+    font-size: 1.7vw;
+    margin-bottom: 2vw;
+
+  }
+  .check-list-style1 {
+    font-size: 1.7vw;
+    color: var(--first-accent-color);
+    margin-top: 6px;
+    margin-left: 22px;
+  }
+  
+  
+  .check-list-style {
+    font-size: 1.7vw;
+    color: var(--first-accent-color);
+    margin-top: 6px;
+    margin-left: 30px;
+  }
+  
+  .main-skill-list p {
+    font-family: "Nunito Sans", Verdana, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+  }
+  
+
+  .expertise,
+  .tools {
+    font-family: "Nunito Sans", Verdana,  Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 1.3vw;
+    line-height: 130%;
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  
+  .expertise li,
+  .tools li {
+    margin-bottom: 0.5vw;
+  }
+  
+  .more-info-btn {
+    display: flex;
+    line-height: 120%;
+    text-align: left;
+    margin: 30px 0 auto auto;
+    padding: 0 1vw;
+  }
+  
+  .more-info-btn div {
+    align-self: center;
+  }
+  
+  .more-info-btn i {
+    font-size: 2vw;
+    color: var(--main-gray-color);
+    align-self: center;
+  }
