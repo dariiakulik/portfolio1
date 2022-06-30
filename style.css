@@ -302,3 +302,62 @@
     color: var(--main-gray-color);
     align-self: center;
   }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-height: 100vh;
+  color: var(--footer-text-color);
+  text-align: center;
+  font-size: 1.7vw;
+}
+.get-in-touch {
+  position: relative;
+  top: 1px;
+}
+
+.get-in-touch p {
+  color: var(--second-accent-color);
+  position: relative;
+  top: 8vw;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  
+}
+.contact-content p {
+  margin: 4.5vh 0 5.4vh;
+}
+
+.email-info {
+  font-size: 2.9vw;
+  margin-bottom: 5.4vh;
+}
+
+.email-info a {
+  color: var(--footer-text-color);
+}
+.contact-icons-block-contact {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.contact-icons-block-contact a {
+  color: white;
+  background: #eaf1f162;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 25px;
+  text-decoration: none;
+  transition: all 100ms ease-out;
+}
